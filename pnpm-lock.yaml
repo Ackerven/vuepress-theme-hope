@@ -792,7 +792,7 @@ importers:
       '@vuepress/core': 2.0.0-beta.49
       '@vuepress/shared': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': ^8.9.4
+      '@vueuse/core': ^9.0.0
       balloon-css: ^1.2.0
       rimraf: 3.0.2
       vue: ^3.2.37
@@ -804,7 +804,7 @@ importers:
       '@vuepress/client': 2.0.0-beta.49
       '@vuepress/shared': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': 8.9.4_vue@3.2.37
+      '@vueuse/core': 9.0.0_vue@3.2.37
       balloon-css: 1.2.0
       vue: 3.2.37
       vue-router: 4.1.2_vue@3.2.37
@@ -844,7 +844,7 @@ importers:
       '@vuepress/core': 2.0.0-beta.49
       '@vuepress/shared': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': ^8.9.4
+      '@vueuse/core': ^9.0.0
       rimraf: 3.0.2
       vue: ^3.2.37
       vuepress-shared: workspace:*
@@ -852,7 +852,7 @@ importers:
       '@vuepress/client': 2.0.0-beta.49
       '@vuepress/shared': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': 8.9.4_vue@3.2.37
+      '@vueuse/core': 9.0.0_vue@3.2.37
       vue: 3.2.37
       vuepress-shared: link:../shared
     devDependencies:
@@ -929,7 +929,7 @@ importers:
       '@vuepress/plugin-container': 2.0.0-beta.49
       '@vuepress/shared': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': ^8.9.4
+      '@vueuse/core': ^9.0.0
       balloon-css: ^1.2.0
       chart.js: ^3.8.0
       echarts: ^5.3.3
@@ -953,7 +953,7 @@ importers:
       '@vuepress/plugin-container': 2.0.0-beta.49
       '@vuepress/shared': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': 8.9.4_vue@3.2.37
+      '@vueuse/core': 9.0.0_vue@3.2.37
       balloon-css: 1.2.0
       chart.js: 3.8.0
       echarts: 5.3.3
@@ -978,7 +978,7 @@ importers:
       '@vuepress/client': 2.0.0-beta.49
       '@vuepress/core': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': ^8.9.4
+      '@vueuse/core': ^9.0.0
       photoswipe: ^5.3.0
       rimraf: 3.0.2
       vue: ^3.2.37
@@ -988,7 +988,7 @@ importers:
     dependencies:
       '@vuepress/client': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': 8.9.4_vue@3.2.37
+      '@vueuse/core': 9.0.0_vue@3.2.37
       photoswipe: 5.3.0
       vue: 3.2.37
       vue-router: 4.1.2_vue@3.2.37
@@ -1004,7 +1004,7 @@ importers:
       '@vuepress/core': 2.0.0-beta.49
       '@vuepress/shared': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': ^8.9.4
+      '@vueuse/core': ^9.0.0
       mitt: ^3.0.0
       register-service-worker: ^1.7.2
       rimraf: 3.0.2
@@ -1017,7 +1017,7 @@ importers:
       '@vuepress/client': 2.0.0-beta.49
       '@vuepress/shared': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': 8.9.4_vue@3.2.37
+      '@vueuse/core': 9.0.0_vue@3.2.37
       mitt: 3.0.0
       register-service-worker: 1.7.2
       vue: 3.2.37
@@ -1171,7 +1171,7 @@ importers:
       '@vuepress/plugin-theme-data': 2.0.0-beta.49
       '@vuepress/shared': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': ^8.9.4
+      '@vueuse/core': ^9.0.0
       balloon-css: ^1.2.0
       bcrypt-ts: ^1.0.0
       rimraf: 3.0.2
@@ -1205,7 +1205,7 @@ importers:
       '@vuepress/plugin-theme-data': 2.0.0-beta.49
       '@vuepress/shared': 2.0.0-beta.49
       '@vuepress/utils': 2.0.0-beta.49
-      '@vueuse/core': 8.9.4_vue@3.2.37
+      '@vueuse/core': 9.0.0_vue@3.2.37
       balloon-css: 1.2.0
       bcrypt-ts: 1.0.0
       vue: 3.2.37
@@ -3297,6 +3297,10 @@ packages:
   /@types/web-bluetooth/0.0.14:
     resolution: {integrity: sha512-5d2RhCard1nQUC3aHcq/gHzWYO6K0WJmAbjO7mQJgCQKtZpgXxv1rOM6O/dBDhDYYVutk1sciOgNSe+5YyfM8A==}
 
+  /@types/web-bluetooth/0.0.15:
+    resolution: {integrity: sha512-w7hEHXnPMEZ+4nGKl/KDRVpxkwYxYExuHOYXyzIzCDzEZ9ZCGMAewulr9IqJu2LR4N37fcnb1XVeuZ09qgOxhA==}
+    dev: false
+
   /@types/webpack-env/1.17.0:
     resolution: {integrity: sha512-eHSaNYEyxRA5IAG0Ym/yCyf86niZUIF/TpWKofQI/CVfh5HsMEUyfE2kwFxha4ow0s5g0LfISQxpDKjbRDrizw==}
 
@@ -3914,8 +3918,24 @@ packages:
       vue: 3.2.37
       vue-demi: 0.13.5_vue@3.2.37
 
+  /@vueuse/core/9.0.0_vue@3.2.37:
+    resolution: {integrity: sha512-hMMc2ajuVknkL7Z39JdP9gFFND2OgnDTSS5mmuinWGAE1Vxy1AwDvTHm3+juyk+GzJjYRAktnBIPy7Fq53iOnw==}
+    dependencies:
+      '@types/web-bluetooth': 0.0.15
+      '@vueuse/metadata': 9.0.0
+      '@vueuse/shared': 9.0.0_vue@3.2.37
+      vue-demi: 0.13.5_vue@3.2.37
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
+
   /@vueuse/metadata/8.9.4:
     resolution: {integrity: sha512-IwSfzH80bnJMzqhaapqJl9JRIiyQU0zsRGEgnxN6jhq7992cPUJIRfV+JHRIZXjYqbwt07E1gTEp0R0zPJ1aqw==}
+
+  /@vueuse/metadata/9.0.0:
+    resolution: {integrity: sha512-79YVIsAP1bbWm5GdQuG7jDVF/9uuExzhkO0Sd4/TLuSfzH2uZOrHvGwy+ZNJHjbyRn3uf56rKINWLJdBuTLSqQ==}
+    dev: false
 
   /@vueuse/shared/8.9.4_vue@3.2.37:
     resolution: {integrity: sha512-wt+T30c4K6dGRMVqPddexEVLa28YwxW5OFIPmzUHICjphfAuBFTTdDoyqREZNDOFJZ44ARH1WWQNCUK8koJ+Ag==}
@@ -3930,6 +3950,15 @@ packages:
     dependencies:
       vue: 3.2.37
       vue-demi: 0.13.5_vue@3.2.37
+
+  /@vueuse/shared/9.0.0_vue@3.2.37:
+    resolution: {integrity: sha512-WRCyr/wIz5e/2gR/+qFucbCUcGMyJKkQZAzlECl3e71ebQQ9X/w3aBWT9FbnogJX+DNZ/t3Pj+TqPbC7TH1Yog==}
+    dependencies:
+      vue-demi: 0.13.5_vue@3.2.37
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
 
   /@waline/client/2.6.2:
     resolution: {integrity: sha512-yQUPRXF8Om+YQCeqZY4BWHKOpHAouGYlRiqBWsen/hUgdRs5eMcsnaYtrcluQHFzPb/Mv2HPOVKQCJys6oSJpw==}
